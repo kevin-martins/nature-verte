@@ -9,4 +9,4 @@ const plantSchema = mongoose.Schema({
     price: { type: Number },
 });
 
-module.export = mongoose.model('Plant', plantSchema);
+module.exports = mongoose.model('Plant', plantSchema);
